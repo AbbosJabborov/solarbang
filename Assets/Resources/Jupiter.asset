@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a82595f7a143f1af6985d3e12aa298, type: 3}
+  m_Name: Jupiter
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableObject.PlanetData
+  planetName: Jupiter
+  planetSprite: {fileID: 21300000, guid: e51eb7864acbf4605ae304771d4b3516, type: 3}
+  targetSize: 5
+  gravityStrength: 3
+  spawnProfile: {fileID: 11400000, guid: ea1408902c35cc20e870a7917b40a09d, type: 2}
