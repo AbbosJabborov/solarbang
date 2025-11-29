@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 689758b368424714a6bdb8721b82c73d, type: 3}
+  m_Name: NeptuneSpawn
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.AsteroidSpawnProfile
+  normalAsteroids:
+  - {fileID: 5992140997162895177, guid: 84e2e5251733859f69f64088d3c78923, type: 3}
+  - {fileID: 3664823140149941591, guid: b3bd89c400dee338cb93c971442129a8, type: 3}
+  - {fileID: 4649991090630289576, guid: 008333a6534ed97ffbbd7edbfd38af1d, type: 3}
+  redAsteroids:
+  - {fileID: 9034448242534432168, guid: 45f8f83563fa24e6f9a08712daff6a72, type: 3}
+  redChance: 0.25
+  sizeData:
+  - name: Default
+    minScale: 0.5
+    maxScale: 2
+    weight: 0.1
+    massMultiplier: 1
