@@ -5,12 +5,10 @@ namespace UIManagers
 {
     public class MenuManager : MonoBehaviour
     {
-        private void Update()
+        public void StartGame()
         {
-            if (Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.D) )
-            {
-                SceneManager.LoadScene(sceneBuildIndex: 1);
-            }
+            SceneManager.LoadScene(sceneBuildIndex: 1);
         }
+
     }
 }
